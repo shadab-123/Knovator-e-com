@@ -1,4 +1,4 @@
-module.exports = [
+const products = [
   {
     id: 1,
     name: "Vintage Camera",
@@ -140,3 +140,5 @@ module.exports = [
     image: "https://www.pricepony.com.ph/blog/wp-content/uploads/2018/05/honor-7x-smartphone-diamu.jpg"
   }
 ];
+
+export default products;

@@ -17,7 +17,7 @@ export default function CartPage() {
     }
 
     try {
-      const res = await axios.post("/api/order", {
+      const res = await axios.post("/api/orders", {
         ...form,
         cart,
       });
